@@ -1,6 +1,6 @@
 import pyrogram
-import config
-import time
+import config #вы можете создать config.py в корневой директории и импортировать его как здесь или
+import time         #используйте переменные  api_id и api_hash прямо в коде
 
 app = pyrogram.Client("my_account", api_id=config.api_id, api_hash=config.api_hash)
 
